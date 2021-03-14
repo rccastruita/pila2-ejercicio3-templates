@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Contacto</h1>
+<h2>Envíanos un mensaje</h2>
+
+<form>
+    <label for="nombre">Nombre</label><br>
+    <input type="text" name="nombre" placeholder="Nombre..."><br>
+    <label for="mensaje">Mensaje</label><br>
+    <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje..."></textarea><br>
+    <button type="submit">Enviar</button>
+</form>
+
+{% endblock %}

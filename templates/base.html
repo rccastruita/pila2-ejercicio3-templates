@@ -1,5 +1,11 @@
+{% load static %}
+<head>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+</head>
+
+
 <header>
-    <a href="{% url 'home' %}">Inicio</a> | <a href="{% url 'about' %}">Acerca de</a>
+    <a href="{% url 'home' %}">Inicio</a> | <a href="{% url 'about' %}">Acerca de</a> | <a href="{% url 'contact' %}">Contacto</a>
 </header>
 
 {% block content %}
